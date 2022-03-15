@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.10.0
+    hooks:
+      - id: isort
+        args: ["--sl"]
+  - repo: https://github.com/google/yapf
+    rev: v0.31.0
+    hooks:
+      - id: yapf
+        args: ["-i"]
+
